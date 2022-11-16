@@ -1,15 +1,37 @@
-#first-sec {
-  padding-top: 60px;
- }
- #first-sec::before{
-  content: "";
-  background-image: url(./images/beach2.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 275px;
-  left: 0px;
-  opacity: 0.35;
-  border: 2px solid black;
+#home { 
+  padding-top: 50px;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#home::before {    
+    content: "";
+    background-image: url(./images/beach2.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+.text-block {
+  position: relative;
+  color: black;  
+  text-align: right;
+  width: 18em;
+  margin-top: 7em;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+footer {
+  margin-top: 25px;
+}
+.news-icon i{
+  color: gray;
+  padding: 5px;
 }
