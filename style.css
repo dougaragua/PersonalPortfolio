@@ -1,0 +1,15 @@
+#first-sec {
+  padding-top: 60px;
+ }
+ #first-sec::before{
+  content: "";
+  background-image: url(./images/beach2.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 275px;
+  left: 0px;
+  opacity: 0.35;
+  border: 2px solid black;
+}
