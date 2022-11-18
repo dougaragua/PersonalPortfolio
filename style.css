@@ -22,14 +22,14 @@
     opacity: 0.75;
 }
 .text-block {
-  position: relative;
+  position: absolute;
   color: black;  
   text-align: right;
   width: 18em;
   margin-top: 7em;
   margin-bottom: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 33%;
+  margin-left: 40%;
   
 }
 
